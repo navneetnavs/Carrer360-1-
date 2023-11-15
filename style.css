@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Poppins:wght@100&family=Rubik:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik:ital,wght@1,600&display=swap');
+#mains {
+    padding-top: 90px;
+    margin: auto;
+    margin-top: 100px;
+    width: 700px;
+    height:600px;
+    background-color: whitesmoke;
+}
+#hone {
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+    padding-left: 116px;
+    margin-bottom: -22px;
+}
+#hones {
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+    padding-left: 140px;
+}
+#Starting {
+    height: 5px;
+}
+#rupees {
+    height: 40px;
+     margin-bottom: -10px;
+}
+#fees {
+    color: blue; 
+    height: 20px;
+}
+#round {
+    background-color: goldenrod;
+     height: 50px; 
+     width: 400px; 
+     display: flex;
+    justify-content: center;
+     align-items: center;
+}
+#dotsec {
+    background-color: black;
+}
+hr {
+    width: 350px;
+    border-top: 1px;
+}
+#main{
+    background-color: white;
+    border: 0.5px solid grey;
+    margin: auto;
+    width: 400px;
+    height: 457px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dot {
+    margin: 7px;
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+#parag {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 0 25px 0 25px;
+}
+
+#price {
+    float: left;
+    width: 350px;
+    height: 100px;
+    display: inline-block;
+    background-color: rgb(214, 243, 255);
+    display: flex;
+    margin:0 25px 0 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#know {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 900px) {
+    #main {
+        /* padding-right: 120px;
+      /* height: 500px;
+      width: 500px;
+      background-color: blueviolet; */
+    } */
+  }
